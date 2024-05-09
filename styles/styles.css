@@ -31,11 +31,12 @@ main {
 aside {
     width: 20rem;
     text-align: center;
+    position: relative;
 }
 aside h2 {
-    position: relative;
+    position: absolute;
     top: 47px;
-    left: 5px;
+    left: 95px;
 }
 aside img {
     width: 200px;
