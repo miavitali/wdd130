@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+:root {
+    --primary-color: #385F71;
+    --secondary-color: #2B4162;
+    --accent1-color: #F5F0F6;
+    --accent2-color: #D7B377;
+
+    --heading-font: 'Ubuntu Sans', serif;
+    --paragraph-font: 'Lato', serif;
+
+    --nav-background-color: #F5F0F6;
+    --nav-link-color: #2B4162;
+    --nav-hover-link-color: #385F71;
+    --nav-hover-background-color: #D7B377;
+} 
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color)
+}
+p {
+    padding: 25px;
+}
+
+.hero div {
+    position: relative;
+}
+.hero div > .hero h1, .hero article{
+    position: absolute;
+}
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+    float: right;
+}
+/*article > img{
+    float: right;
+}*/
