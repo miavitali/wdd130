@@ -27,28 +27,26 @@ body {
 
 h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    Color: var(--primary-color);
 }
 
 header {
-    background-color: #385f719f;
-    padding: 20px;
+    color: var(--secondary-color);
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 1fr 3fr;
 	align-items: center;
-	border-bottom: 1px solid #ccc;
-	max-width: 1000px;
-}
-.logo img {
-	margin: 0 0.25rem 0 1rem;
-	width: 55px;
-	height: auto;
+    border: thin solid;
+    border-color: var(--secondary-color);
+    margin: 20px;
+    background-color: #385f71cb;
 }
 nav {
-	text-align: right;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    justify-content: space-around;
+}
+
+header img {
+    max-width: 100px;
 }
 
 nav a {
@@ -56,16 +54,7 @@ nav a {
 	color: #ccc;
 	padding: 20px;
 	text-decoration: none;
-}
-
-.navigation a:hover {
-	color: tomato;
-	font-weight: 700;
-	text-decoration: underline;
-}
-
-header img {
-    max-width: 100%;
+    font-size: larger;
 }
 
 /*Classe selector (hero)*/
@@ -108,7 +97,7 @@ header img {
     float: right;
 }
   
-section img {
+.hero section img {
     color: #333;
 }
 
@@ -135,44 +124,46 @@ section h2 img {
 footer nav a {
     text-decoration: none;
 }
-section{
+.Adventure h2{
     display: flex;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
+    align-content: center;
+    margin-top: 10px;
+    margin-left: 40%;
 }
-section h2{
-margin-bottom: 20px;
-}
-section p{
-    max-width: 60px;
-}
-figcaption {
-    text-align: center;
-}
-.figure_flex {
+
+.figure-flex-box {
     display: flex;
-}
+    justify-content: center;
+} 
+
 figure img {
     width: 200px;
 }
-figure {
-    padding: 0px;
-    margin: 10px;
-}
-footer {
-    margin-top: 30px;
-    display: flex;
-    border-bottom: 1px solid black;
-    justify-content: right;
-}
-.history {
-    display: grid;
-    grid-template-rows: 1fr 3fr;
+figcaption {
+    text-align: center;
+    justify-content: last baseline; 
     align-items: center;
-    padding: 15px;
-    border: solid;
-    margin-top: 15px;
-    color: var(--accent2-color);
-    align-content: center;
+
 }
+
+footer {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    align-items: center;
+    text-align: center;
+    background-color: #385f71cb;
+}
+footer p{
+    margin-left: 30%;
+}
+.History p {
+    padding: 40px;
+    margin-top: 15px;
+}
+.History h2{
+    display: flex;
+    align-content: center;
+    margin-top: 10px;
+    margin-left: 46%;
+}
+
