@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
 
 :root {
-    --primary-color: #385F71;
+    --primary-color: #ad2876;
     --secondary-color: #2B4162;
-    --accent1-color: #F5F0F6;
-    --accent2-color: #D7B377;
+    --accent1-color: white;
+    --accent2-color: #eb9c15;
 
     --heading-font: 'Ubuntu Sans', serif;
     --paragraph-font: 'Lato', serif;
 
-    --nav-background-color: #F5F0F6;
+    --nav-background-color: white;
     --nav-link-color: #2B4162;
-    --nav-hover-link-color: #385F71;
-    --nav-hover-background-color: #D7B377;
+    --nav-hover-link-color: #ad2876;
+    --nav-hover-background-color: #eb9c15;
 } 
 body {
     font-family: var(--font-family);
@@ -31,12 +31,14 @@ h2, h3, h4, h5, h6 {
 }
 
 header {
-    color: var(--secondary-color);
+    /*color: var(--secondary-color);*/
+    color: #385f71;
     display: grid;
     grid-template-columns: 1fr 3fr;
 	align-items: center;
     border: thin solid;
-    border-color: var(--secondary-color);
+    /*border-color: var(--secondary-color);*/
+    border-color: #385f71cb;
     margin: 20px;
     background-color: #385f71cb;
 }
@@ -51,7 +53,7 @@ header img {
 
 nav a {
 	display: block;
-	color: #ccc;
+	color: black;
 	padding: 20px;
 	text-decoration: none;
     font-size: larger;
@@ -85,10 +87,14 @@ nav a {
     height : auto;
     position : absolute;
     top : 350px;
-    background-color : #275970a1;
+    /*background-color : #387896ce;*/
+    background-color: #385f71;
     padding : 2em;
     margin-left : 12%;
     z-index: 1; 
+}
+.hero article p{
+    color: white;
 }
 
 .hero article img {
@@ -154,13 +160,13 @@ footer p{
     margin-left: 30%;
 }
 .History p {
-    padding: 40px;
+    padding: 30px;
     margin-top: 15px;
+    text-align: center;
 }
-.History h2{
+ .History h2{
     display: flex;
     align-content: center;
     margin-top: 10px;
     margin-left: 46%;
 }
-
