@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title> Mía Vitali | HTML-FORM | WDD 130</title>
+        <link rel="stylesheet" href="styles/quiz.css">
+    </head>
+    <body>
+        <header>
+            <h1>Basic HTML and CSS Quiz</h1>
+        </header>
+        <main>
+            <form>
+                
+                <div class="question">
+                    <label for="q1">1. Change the following text to be an HTML markup comment: "Dev Note: Add the banner ad here"</label>
+                    <input type="text" id="q1" name="q1">
+                </div>
+                <div class="question">
+                    <label for="q2">2. How are id and class attributes selected in CSS?</label>
+                    <textarea id="q2" name="q2" rows="4" ></textarea>
+                </div>
+                <div class="question">
+                    <label for="q3">3. Which of the following uses the correct CSS element selector syntax for a CSS declaration?</label>
+                    <select id="q3" name="q3">
+                        <option value="" selected disabled>Choose One</option>
+                        <option value="pict">pict { padding: 1em; border: 1px solid black; }</option>
+                        <option value="img">img { padding: 1em; border: 1px solid black; }</option>
+                        <option value="image">image { padding: 1em; border: 1px solid black; }</option>
+                        <option value="pic">pic { padding: 1em; border: 1px solid black; }</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label for="q4">4. Given the following box model, select which label corresponds to the padding.</label>
+                    <img class="img" src="images/boxmodellabeled.png" alt="box-model">
+                    <input type="number" id="q4" name="q4">
+                </div>
+                <button type="submit">Submit Quiz</button>
+            </form>
+        </main>
+    </body>
+</html>
