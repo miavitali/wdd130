@@ -87,7 +87,6 @@ nav a {
     height : auto;
     position : absolute;
     top : 350px;
-    /*background-color : #387896ce;*/
     background-color: #385f71;
     padding : 2em;
     margin-left : 12%;
@@ -169,4 +168,123 @@ footer p{
     align-content: center;
     margin-top: 10px;
     margin-left: 46%;
+}
+
+/*Contact Us*/
+.map{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.employees-pic {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+figure img {
+    width: 230px;
+    height: auto;  
+}
+.employees{
+    margin-bottom: -1rem;
+}
+.employees-pic{
+    text-align: center;
+}
+label legend{
+    font-size: larger;
+}
+.address, .map{
+    display: grid;
+    align-content: space-between;
+    justify-content: center;
+}
+.address-title, .team, .message{
+    padding-left: 80px;
+    padding-top: 40px;
+} 
+
+ .company-info {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    place-items: center;
+    align-items: center;
+} 
+.address{
+    margin: 0 auto;
+    padding: 1.8rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+    background-color: #f3f3f3;
+    display: grid;
+    font-size: xx-large;
+}
+li {
+    margin: 10px 10px;
+    font-size: 1rem;
+}
+
+.address p h6 {
+    font-family:var(--heading-font);
+    color:var(--primary-color);
+    text-align: left;
+    font-size: 1.3rem;
+}
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1.8rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+    background-color: #f3f3f3;
+    display: grid;
+    margin-bottom: 20px;
+}
+
+label {
+    text-align: left;
+    padding: .8rem;
+    font-size: 1rem;
+}
+
+input, textarea {
+    padding: .5rem;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+}
+ input[type="checkbox"] {
+    margin-left: auto;
+    width: 1rem;
+    height: 1rem;
+    vertical-align:top;
+ }
+ input[type="radio"]{
+    margin-left: auto;
+    margin-top: -2rem;
+    justify-items: center;
+    width: 1rem;
+    height: 1rem;
+    vertical-align: bottom;
+ }
+ button {
+    margin: 1rem;
+    background-color: var(--primary-color);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: .6rem;
+    padding: .75rem;
+    font-size: 1.1rem;
+}
+
+button:hover {
+    color: var(--nav-hover-link-color);
+    background-color: #0056b3;
+    border-radius: .6rem;
+}
+fieldset{
+    margin-top: 20px;
 }
