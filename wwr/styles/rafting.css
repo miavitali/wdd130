@@ -4,7 +4,7 @@
     --primary-color: #ad2876;
     --secondary-color: #2B4162;
     --accent1-color: white;
-    --accent2-color: #eb9c15;
+    --accent2-color: #527bb1e3;
 
     --heading-font: 'Ubuntu Sans', serif;
     --paragraph-font: 'Lato', serif;
@@ -287,4 +287,82 @@ button:hover {
 }
 fieldset{
     margin-top: 20px;
+}
+/*Trips*/
+.reservations {
+    text-align: center;
+    padding-top: 2rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-bottom: 2rem;
+}
+.book{
+    background-color: #0056b3;
+    text-align: center;
+    margin-bottom: 20rem;
+    margin-left: 43rem;
+    background-color: var(--primary-color);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: .6rem;
+    padding: .75rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.trips{
+    padding-top: 1.5rem;
+}
+.trips h2, p{
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+.trips p{
+    font-size: larger;
+}
+.trip1 {
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 2.1rem;
+}
+.trip2 {
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 2.1rem;
+}
+.trip3{
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 1rem;
+}
+.space {
+    padding-top: 1.5rem;
+}
+
+
+/* ...... */
+.table {
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+table {
+    justify-self: center;
+    align-self: center;
+    padding-bottom: 30px;
+}
+
+.cell {
+    padding: 5px;
+    background-color: var(--accent2-color);
+    text-align: center;
+}
+
+td > h4 {
+    padding: 10px;
+}
+
+td > h3 {
+    padding: 10px 10px 10px 0;
+
 }
