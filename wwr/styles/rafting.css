@@ -299,8 +299,9 @@ fieldset{
 .book{
     background-color: #0056b3;
     text-align: center;
-    margin-bottom: 20rem;
-    margin-left: 43rem;
+    justify-items: center;
+    margin-left: 35rem;
+    margin-right: 35rem;
     background-color: var(--primary-color);
     color: rgb(255, 255, 255);
     border: none;
@@ -308,10 +309,13 @@ fieldset{
     padding: .75rem;
     font-size: 1.5rem;
     text-decoration: none;
+    display: flex;
+    justify-content: space-around;
 }
 .trips{
     padding-top: 1.5rem;
 }
+
 .trips h2, p{
     text-align: center;
     align-content: center;
@@ -320,20 +324,35 @@ fieldset{
 .trips p{
     font-size: larger;
 }
+.trip1-1{
+    margin-left: 3rem;
+    margin-right: 1.5rem;
+}
 .trip1 {
-    align-items: center;
-    justify-content: space-around;
-    margin-left: 2.1rem;
+    align-content: center;
+    justify-content: space-between;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+.trip2-2{
+    margin-left: 3rem;
+    margin-right: 1.5rem;
 }
 .trip2 {
-    align-items: center;
+    align-content: center;
     justify-content: space-around;
-    margin-left: 2.1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+.trip3-3{
+    margin-left: 2.4rem;
+    margin-right: 1.2rem;
 }
 .trip3{
-    align-items: center;
+    align-content: center;
     justify-content: space-around;
-    margin-left: 1rem;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
 }
 .space {
     padding-top: 1.5rem;
@@ -365,4 +384,17 @@ td > h4 {
 td > h3 {
     padding: 10px 10px 10px 0;
 
+}
+
+/* Home Page */
+.index{
+    width: 350px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+    background-color: #f3f3f3;
+    display: grid;
+    justify-content: flex-start;
+    margin-bottom: 20px;
 }
