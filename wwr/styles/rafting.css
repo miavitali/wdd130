@@ -388,13 +388,69 @@ td > h3 {
 
 /* Home Page */
 .index{
-    width: 350px;
+    width: auto;
+    height: 350px;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 2rem;
     border: 1px solid var(--primary-color);
     border-radius: 0.5rem;
     background-color: #f3f3f3;
     display: grid;
     justify-content: flex-start;
     margin-bottom: 20px;
+    
+}
+.invite{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin-bottom: 40px;
+    align-items: center;
+    
+}
+.form_title{
+    text-align: left;
+    padding: .8rem;
+    font-size: 2rem;
+    color: #ad2876;
+}
+.label-index {
+    text-align: left;
+    padding: .3rem;
+    font-size: 1rem;
+}
+
+input{
+    padding: .5rem;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+}
+.subscribe{
+    margin-left: auto;
+    margin-bottom: 1rem;
+    width: 1rem;
+    height: 1rem;
+    vertical-align: bottom;
+ }
+button {
+    margin: 1rem;
+    background-color: var(--primary-color);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: .6rem;
+    padding: .75rem;
+    font-size: 1.1rem;
+}
+
+button:hover {
+    color: var(--nav-hover-link-color);
+    background-color: #0056b3;
+    border-radius: .6rem;
+}
+.link > img, figcaption{
+    display: block;
+    text-align: left;
+    text-decoration: none;
+}
+.link h3{
+    text-decoration: none;
 }
