@@ -35,7 +35,6 @@ nav {
     background: linear-gradient(white, var(--nav-background-color));
     justify-content: space-around;
     align-content: flex-end;
-    
 }
 
 nav img {
@@ -49,6 +48,10 @@ nav a {
     font-size: 23px;
     align-self: end;
     padding: 10px;
+}
+
+.logo_link:hover {
+    background-color: var(--secondary-color);
 }
 
 nav a:hover {
@@ -72,6 +75,12 @@ article {
     background-color: #124166AA;
     color:#ffffff;
     width: 100%;
+}
+
+.article_heading {
+    color: white;
+    font-size: 1.2em;
+    margin: 10px 0 -12px 40px;
 }
 
 .about_title {
