@@ -460,3 +460,41 @@ button:hover {
 .link h3{
     text-decoration: none;
 }
+/* .home-pics{
+    margin: 3.7rem;
+    justify-items: center;
+    align-items: center;
+} */
+.home-pics{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    padding-bottom: 1rem;
+}
+
+.pix01 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    justify-self: center;
+}
+
+.pix02 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    justify-self: center;
+}
+
+.pix03 {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    justify-self: center;
+}
+.white_water {
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+    background-color: #ad2875b9;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin: 1rem;
+}
